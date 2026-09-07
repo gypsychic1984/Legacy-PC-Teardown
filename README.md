@@ -36,5 +36,27 @@ The system contained two Hynix 4 GB DDR3 DIMMs, providing 8 GB of total installe
 - **Part Number:** DHMT351U6BFR8C-H9
 ![RAM removed with specificaitons](images/RAM%20removed%20with%20Specs.jpg)
 
+## Component 2: Hard Drive
+### Hard Disk Drive (HDD)
+ The system used a traditional hard disk drive for long-term data storage. Unlike RAM, which stores data temporarily while the computer is operating, the hard drive provides non volatile storage and retains data when the computer is powered off.
+**What I leared:**
+- HDD stands for **Hard Disk Drive**.
+- The drive stores the operating system, applications, and user files.
+- The drive uses the **SATA (Serial ATA)** interface.
+- SATA uses separate connections for data and power.
+- The SATA data cable connects the hard drive to the motherboard.
+- The SATA power cable connects the hard drive to the power supply.
+## Connections and Removal
+Before removing the drive, I identified and disconnected it's SATA data and power connections. The hard drive was mounted inside a removable drive cage, which had to be released from the chassis before the drive could be removed.
+
+### SATA Connections
+![Hard drive SATA data and power connections](images/Hard%20Drive%20SATA%20connections.jpg)
+
+### Drive Cage
+![Hard drive mounted in drive cage](images/Hard%20Drive%20Cage.jpg)
+
+### Hard Drive Removed
+![Hard drive removed from the system](images/Hard%20Drive%20Removed.jpg)
+
 
 
