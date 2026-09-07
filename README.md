@@ -58,5 +58,38 @@ Before removing the drive, I identified and disconnected it's SATA data and powe
 ### Hard Drive Removed
 ![Hard drive removed from the system](images/Hard%20Drive%20Removed.jpg)
 
+## Component 3: Power Supply Unit
+### Power Supply Unit (PSU)
+The power supply unit convers AC Power from the wall outlet into the DC power that the computer's internal components can use. This HP Pavilion used a 30-Watt power supply with permanently attached cables.
+**What I learned:**
+- PSU stands for **Power Supply Unit**.
+- The PSU converts **AC (Alternating Current)** into  **DC (Direct Current)**.
+- The PSU distributes power to the motherboard, CPU, storage drives, optical drive, and other components.
+- The large 24-pin ATX connector provides the motherboard's main power connection.
+- The CPU uses a separate motherboard power connection.
+- SATA devices use SATA power connections from the PSU.
+- The system used a **non-modular PSU**, meaning it's cables are permanently attached to the power supply.
+### PSU Specifications
+The orginal HP Power supply was rated for a maximum DC output of **300 watts**.
+- **Manufacturer:** Lite-On
+- **Maximim Output:** 300 W
+- **HP Part Number:** 585008-001
+- **Design:** Non-modular
+### Removal and Troublshooting
+Before removing the PSU, I traced its wiring and disconnected each power connection from the motherboard and installed devices.
+
+After removing the PSU mounting screws, the power supply still would not release from the chassis. Rather than forcing the component, I inspected the mounting area and discovered a small metal retention tab. Moving the tab slightly released the PSU and allowed it to be removed safely.
+**Troubleshooting takeaway:** If all visible fasteners have been removed but a component still will not move, stop and inspect for retaining clips, tabs, rails, or other mounting mechanisms before applying additional force.
+### PSU Connections
+![PSU Connections](images/PSU%20Harness%20disconnected.jpg)
+### Power Supply Housing
+![Power Supply Housing](images/Power%20Supply%20Housing.jpg)
+### PSU Specifications
+![PSU specificaitons label](images/PSU%20Specs.jpg)
+### Retention Tab
+![PSU retention tab](images/Tab%20Holding%20PSU%20into%20place.jpg)
 
 
+
+
+ 
