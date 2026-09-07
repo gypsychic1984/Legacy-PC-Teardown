@@ -13,7 +13,7 @@ Rather than simply studying hardware diagrams, I disassembled the system compone
 - Apply lessons learned to my upcoming custom PC build **Project Athena**
 ## Starting Point
 The system arrived as a complete legacy HP Pavilion desktop, Before removing components, I documented the internal layout and existing condition of the machine.
-![Initail view inside the HP Pavilion](images/1st%20Look%20inside%20PC%20Case.
+![Initail view inside the HP Pavilion](images/1st%20Look%20inside%20PC%20Case).
 ## Component 1: RAM
 ### Random Access Memory (RAM)
 The first major component removed was the system memory. Before removal, I identified the RAM modules installed in the motherboard's DIMM slots.
@@ -35,4 +35,5 @@ The system contained two Hynix 4 GB DDR3 DIMMs, providing 8 GB of total installe
 - **Module Rating:** PC3-10600U
 - **Part Number:** DHMT351U6BFR8C-H9
 ![RAM removed with specificaitons](images/RAM%20removed%20with%20Specs.jpg)
+
 
