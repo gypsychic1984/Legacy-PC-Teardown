@@ -211,4 +211,34 @@ The motherboard does not sit directly against the metal computer case. Standoffs
 Without proper standoff placement, conductive areas on the underside of a motherboard could contact the metal chassis and potentially cause an electrical short.
 ### Chassis After Motherboard Removal
 ![Chassis after Motherboard removed](images/Underneath%20Motherboard%20Cleanest%20so%20far.jpg)
+## Component 7: DVD Optical Drive
+### DVD/CD Rewritable Drive
+The system included an internal DVD/CD rewritable optical drive used to read and write optical media. During the teardown, I identified both the drive's data and power connections before removing it from the chassis.
+**What I learned:**
+- DVD stands for **Digital Versatile Disc**.
+- CD stands for **Compact Disc**.
+- The optical drive uses a SATA data connection to communicate with the motherboard.
+- The drive requires a separate power connection from the PSU.
+- SATA data and SATA power connectors have different widths and functions.
+- The drive was mechanically secured inside the chassis and had to be released before it could slide out.
+
+### Connections and Removal
+
+Before removing the optical drive, I disconnected its SATA data and power connections. Once the connections were clear and the drive was released from its mounting position, I slid the drive out of the chassis.
+### DVD Drive Identified
+![DVD Burner_Player Identified Casing](images/DVD%20Burner_Player%20Identified%20casing.jpg)
+#### SATA Connections
+![DVD Burner_Player SATA Connections](images/DVD%20Burner_Player%20SATA%20Connections.jpg)
+### Power Connection
+![DVD Power Supply Identified](images/DVD%20Power%20Supply%20Identified.jpg)
+### Optical Drive Specifications
+The removed optical drive was identified from its component label:
+
+- **Type:** DVD/CD Rewritable Drive
+- **Model:** AD-7251H
+- **HP Part Number:** 657958-001
+- **HP Spare Part Number:** 615646-001
+- **Manufactured:** July 2011
+![DVD Burner_Player Removed_Specs](images/DVD%20Burner_Player%20Removed_Specs.jpg)
+
 
