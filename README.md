@@ -88,8 +88,41 @@ After removing the PSU mounting screws, the power supply still would not release
 ![PSU specificaitons label](images/PSU%20Specs.jpg)
 ### Retention Tab
 ![PSU retention tab](images/Tab%20Holding%20PSU%20into%20place.jpg)
+**Troubleshooting takeaway:** If all visible fasteners have been removed but a component still will not move, stop and inspect for retaining clips, tabs, rails, or other mounting mechanisms before applying additional force.
 
+## Component 4: CPU & Cooling System
+### Central Processing Unit (CPU)
+The CPU performs the primary processing and instruction execution for the computer. This system contained an Intel Core i5-2400 processor.
+**What I learned:**
+- CPU stands for **Central Processing Unit**.
+- The CPU is installed into a socket on the motherboard.
+- This process uses an **LGA (Land Grid Array)** socket design.
+- With LGA, the CPU has flat electrical contact pads while the delicate contact pins are located inside the motherboard socket
+- The CPU must be correctly aligned and lowered into the socket without force.
+- A retention mechanism secures the CPU in the socket.
+### CPU Cooling System
+The CPU cooler consisted of a fan and a metal heatsink mounted directly above the processor.
+** Cooling path:**
+CPU > Thermal Paste > Heatsink > Fan > Airflow
+Themal paste fills microscopic imperfections between the CPU's heat spreader and the heatsink, improving heat transfer between the two sufaces.
+### Removal
+I disconnected the CPU fan from the motherboard and loosened the four spring-loaded heatsink mounting screws gradually in a diagonal pattern. After releasing the thermal-paste bond, I removed the cooler and exposed the CPU.
 
+The CPU retention mechanism was then released, allowing the processor to be carefully lifted from the socket by its edges without touching the electrical contacts.
+### CPU Cooler Identified
+![CPU Cooler](images/Identified%20the%20CPU%20Cooler.jpg)
+### CPU Cooler Connections
+![CPU Cooler Connections](images/CPU%20Cooler%20Connections.jpg)
+### CPU Cooler Screws Identifed
+![CPU Cooler scews identified](images/Identifying%20CPU%20Cooler%20Screws.jpg)
+### CPU Cooler Removed
+![CPU Cooler Removed](images/CPU%20Cooler%20Removed.jpg)
+### CPU Identified
+![CPU Removed](images/CPU%20Front%20Removed.jpg)
+### CPU Contact Pads
+![CPU Contact Pads](images/CPU%20Removed%20Back.jpg)
+### LGA Motherboard Socket
+![LGA motherboard empty](images/Motherboard%20after%20CPU%20removed.jpg)
 
 
  
