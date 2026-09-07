@@ -125,6 +125,35 @@ The CPU retention mechanism was then released, allowing the processor to be care
 ![CPU Contact Pads](images/CPU%20Removed%20Back.jpg)
 ### LGA Motherboard Socket
 ![LGA motherboard empty](images/Motherboard%20after%20CPU%20removed.jpg)
+## Component 5: Wi-Fi Card
+### Wireless Network Adapter
+The system included an internal Wi-Fi card that provided wireless network connectivity. The card was installed directly onto the motherboard and connected to an antenna lead.
+**What I learned:**
+- A Wi-Fi adapter allows the computer to communicate with a wireless network.
+- The adapter connects to the motherboard through an expansion interface.
+- A small coaxial antenna cable connects to the Wi-Fi card using a snap-on connector.
+- The antenna improves the card's ability to transmit and recieve wireless signals.
+- Small internal components and antenna connectors require careful handling during removal.
+### Removal
+I disconnected the antenna lead from the Wi-Fi card, removed its retaining srew, and carefully removed the card from its motherboard connector.
+
+Removing the card also exposed significant dust accumulation underneath it, demonstrating that dust can collect in areas that are not visible during normal computer maintanence.
+### Wi-Fi Card Identified
+![WiFi Card Identified](images/WiFi%20Card%20Identified.jpg)
+### Wi-Fi Card Specifications
+
+The removed wireless adapter was identified from its component label:
+
+- **Model:** RT5390
+- **Board/Model Marking:** WMIR-280GN
+- **HP Part Number:** 638403-001
+- **Interface:** Internal wireless network adapter
+- **Antenna Connection:** Snap-on coaxial antenna connector
+
+### Wi-Fi Card Removed
+![WiFi Card Removed](images/WiFi%20Card%20Removed.jpg)
+
+
 
 
 
