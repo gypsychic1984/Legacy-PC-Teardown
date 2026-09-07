@@ -152,9 +152,63 @@ The removed wireless adapter was identified from its component label:
 
 ### Wi-Fi Card Removed
 ![WiFi Card Removed](images/WiFi%20Card%20Removed.jpg)
+## Component 6: Motherboard
+### System Motherboard
+The motherboard is the main printed circuit board (PCB) of the computer. It provides the electrical and communication pathways that allow the CPU, RAM, storage, expansion devices, power supply, and external peripherals to work together.
 
+During the teardown, removing the surrounding components gradually exposed the motherboard and made it easier to understand how the computer's hardware connects as one complete system.
+**What I identified:**
+- CPU socekt and retention mechanism
+- DIMM slots for system memory
+- PCIe expansion slots
+- SATA ports for storage devices
+- Main motherboard power connector
+- CPU power connector
+- CMOS battery
+- Internal fan and front-panel headers
+- Rear I/O ports
+- Motherboard chipset and heatsink
+### Motherboard Before Removal
+![Motherboard after all connections removed](images/Motherboard%20after%20all%20connections%20removed.jpg)
+### Motherboard Connections and Interfaces
+Examining the motherboard after the major components were removed made it easier to identify the different slots, ports, sockets, and headers and understand what each one connects to.
+#### DIMM Slots
+The motherboard contains DIMM slots for installing system RAM. The retaining clips secure each memory module, while the keyed notch helps prevent incorrect installation.
+#### PCIe Expansion Slots
+PCIe slots allow expansion cards to be added to the computer. Depending on the system and slot size, these can support devices such as graphics cards, network adapters, sound cards, and other expansion hardware.
+#### SATA Ports
+The motherboard's SATA ports provide data connections for storage and optical devices. During the teardown, I traced the SATA data cables from the hard drive and DVD drive back to these motherboard ports.
+ #### Power Connections
+ The motherboard receives power from the PSU through its main motherboard power connector. A separate CPU power connection supplies power to the processor's voltage-regulation circuitry.
+ #### CMOS Battery
+ The coin-cell battery provides backup power for firmware-related settings and the system's real-time clock while the computer is disconnected from external power.
+ #### Internal Headers
+ Smaller motherboard headers provide connections for components such as cooling fans, front-panel controls, indicator LEDs, USB ports, and other chassis features.
+ #### Rear I/O
+ The rear I/O section provides the computer's external connections. This system included connections for USB, Ethernet networking, audio, and video output.
+ ### Motherboard Interfaces
+ ![Motherboards interfaces and rear I/O](images/I_O%20Panel%20Identified.jpg)
+ ### Rear I/O Assembly Removed
+ ![Motherboards I/O assembly removed](images/I_O%20Assembly%20Removed%20with%20Specs.jpg)
+ ### Motherboard Removal
+ With the major components and motherboard connections removed, I inspected the board for its mounting points before attempting to lift it from the chassis.
 
+I identified **eight motherboard mounting screws**: seven positioned around the outer perimeter and one additional screw near the center of the board.
 
+After removing the screws, I carefully checked that no cables or connectors were still attached before moving the motherboard.
+**What I learned:**
+- Motherboards are secured to the chassis using screws and raised mounting points called **standoffs**.
+- Standoffs keep the underside of the motherboard from making direct contact with the metal chassis.
+- The rear I/O ports must clear the chassis opening before the motherboard can be completely removed.
+- A motherboard should never be forced from the case if it does not move freely.
+- Before lifting the board, cables, mounting screws, retaining points, and the rear I/O area should all be checked again.
+### Motherboard Removed From Chassis
+Once all mounting points were released and the rear I/O connections were clear of the chassis, I carefully removed the motherboard and placed it on my ESD-safe work surface.
+![Motherboard Removed](images/Motherboard%20removed.jpg)
+### Why Standoffs Matter
+The motherboard does not sit directly against the metal computer case. Standoffs create a small physical gap between the motherboard and chassis while also providing secure mounting locations.
 
+Without proper standoff placement, conductive areas on the underside of a motherboard could contact the metal chassis and potentially cause an electrical short.
+### Chassis After Motherboard Removal
+![Chassis after Motherboard removed](images/Underneath%20Motherboard%20Cleanest%20so%20far.jpg)
 
- 
