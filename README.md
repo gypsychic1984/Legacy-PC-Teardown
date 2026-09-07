@@ -96,14 +96,16 @@ The CPU performs the primary processing and instruction execution for the comput
 **What I learned:**
 - CPU stands for **Central Processing Unit**.
 - The CPU is installed into a socket on the motherboard.
-- This process uses an **LGA (Land Grid Array)** socket design.
+- This processor uses an **LGA (Land Grid Array)** socket design.
 - With LGA, the CPU has flat electrical contact pads while the delicate contact pins are located inside the motherboard socket
 - The CPU must be correctly aligned and lowered into the socket without force.
 - A retention mechanism secures the CPU in the socket.
 ### CPU Cooling System
 The CPU cooler consisted of a fan and a metal heatsink mounted directly above the processor.
-** Cooling path:**
+**Cooling path:**
+
 CPU > Thermal Paste > Heatsink > Fan > Airflow
+
 Themal paste fills microscopic imperfections between the CPU's heat spreader and the heatsink, improving heat transfer between the two sufaces.
 ### Removal
 I disconnected the CPU fan from the motherboard and loosened the four spring-loaded heatsink mounting screws gradually in a diagonal pattern. After releasing the thermal-paste bond, I removed the cooler and exposed the CPU.
@@ -123,6 +125,7 @@ The CPU retention mechanism was then released, allowing the processor to be care
 ![CPU Contact Pads](images/CPU%20Removed%20Back.jpg)
 ### LGA Motherboard Socket
 ![LGA motherboard empty](images/Motherboard%20after%20CPU%20removed.jpg)
+
 
 
  
