@@ -4,15 +4,15 @@
 This project documents the complete teardown of a legacy HP Pavilion desktop computer. The goal was to gain hands-on experience identifying computer hardware, understanding how components connect to the motherboard, safely removing components, and examining the physical construction of a desktop PC.
 Rather than simply studying hardware diagrams, I disassembled the system component by component from RAM, storage, and the power supply to the CPU, cooling system, motherboard, and front I/O assembly until only the chassis remained.
 ## Project Objectives
-- Practice ESD-Safe hardware handling
+- Practice ESD-safe hardware handling
 - Identify major desktop computer components
 - Identify common power and data connections
 - Understand how components physically interface with the motherboard
 - Practice complete PC disassembly
-- Document obserbations and troubleshooting encounterd during the teardown
+- Document observations and troubleshooting encountered during the teardown
 - Apply lessons learned to my upcoming custom PC build **Project Athena**
 ## Starting Point
-The system arrived as a complete legacy HP Pavilion desktop, Before removing components, I documented the internal layout and existing condition of the machine.
+The system arrived as a complete legacy HP Pavilion desktop. Before removing components, I documented the internal layout and existing condition of the machine.
 ![Initail view inside the HP Pavilion](images/1st%20Look%20inside%20PC%20Case.jpg)
 ## Component 1: RAM
 ### Random Access Memory (RAM)
@@ -22,24 +22,24 @@ The first major component removed was the system memory. Before removal, I ident
 - DIMM stands for **Dual Inline Memory Module**.
 - RAM modules are installed directly into DIMM slots on the motherboard.
 - Retaining clips on the DIMM slots secure the modules in place.
-- The notch in a RAM module helps ensure that it is installed in the correct oreintation.
+- The notch in a RAM module helps ensure that it is installed in the correct orientation.
 ### Removal
-I realeased the retaining clips and carefully removed the RAM modules by handling them by their edges to avoid touching the electrical contacts.
+I released the retaining clips and carefully removed the RAM modules by handling them by their edges to avoid touching the electrical contacts.
 ![RAM modules installed in motherboard DIMM slots](images/Located%20RAM.jpg)
 ### Installed Memory
 The system contained two Hynix 4 GB DDR3 DIMMs, providing 8 GB of total installed memory.
 - **Manufacturer:** Hynix
-- **Capacity:** 4GB per module
+- **Capacity:** 4 GB per module
 - **Total Memory:** 8 GB
 - **Module Type:** DDR3
 - **Module Rating:** PC3-10600U
-- **Part Number:** DHMT351U6BFR8C-H9
+- **Part Number:** HMT351U6BFR8C-H9
 ![RAM removed with specificaitons](images/RAM%20removed%20with%20Specs.jpg)
 
 ## Component 2: Hard Drive
 ### Hard Disk Drive (HDD)
- The system used a traditional hard disk drive for long-term data storage. Unlike RAM, which stores data temporarily while the computer is operating, the hard drive provides non volatile storage and retains data when the computer is powered off.
-**What I leared:**
+ The system used a traditional hard disk drive for long-term data storage. Unlike RAM, which stores data temporarily while the computer is operating, the hard drive provides non-volatile storage and retains data when the computer is powered off.
+**What I learned:**
 - HDD stands for **Hard Disk Drive**.
 - The drive stores the operating system, applications, and user files.
 - The drive uses the **SATA (Serial ATA)** interface.
@@ -47,7 +47,7 @@ The system contained two Hynix 4 GB DDR3 DIMMs, providing 8 GB of total installe
 - The SATA data cable connects the hard drive to the motherboard.
 - The SATA power cable connects the hard drive to the power supply.
 ## Connections and Removal
-Before removing the drive, I identified and disconnected it's SATA data and power connections. The hard drive was mounted inside a removable drive cage, which had to be released from the chassis before the drive could be removed.
+Before removing the drive, I identified and disconnected its SATA data and power connections. The hard drive was mounted inside a removable drive cage, which had to be released from the chassis before the drive could be removed.
 
 ### SATA Connections
 ![Hard drive SATA data and power connections](images/Hard%20Drive%20SATA%20connections.jpg)
@@ -60,7 +60,7 @@ Before removing the drive, I identified and disconnected it's SATA data and powe
 
 ## Component 3: Power Supply Unit
 ### Power Supply Unit (PSU)
-The power supply unit convers AC Power from the wall outlet into the DC power that the computer's internal components can use. This HP Pavilion used a 30-Watt power supply with permanently attached cables.
+The power supply unit convertsAC Power from the wall outlet into the DC power that the computer's internal components can use. This HP Pavilion used a 300Watt power supply with permanently attached cables.
 **What I learned:**
 - PSU stands for **Power Supply Unit**.
 - The PSU converts **AC (Alternating Current)** into  **DC (Direct Current)**.
@@ -68,14 +68,14 @@ The power supply unit convers AC Power from the wall outlet into the DC power th
 - The large 24-pin ATX connector provides the motherboard's main power connection.
 - The CPU uses a separate motherboard power connection.
 - SATA devices use SATA power connections from the PSU.
-- The system used a **non-modular PSU**, meaning it's cables are permanently attached to the power supply.
+- The system used a **non-modular PSU**, meaning its cables are permanently attached to the power supply.
 ### PSU Specifications
-The orginal HP Power supply was rated for a maximum DC output of **300 watts**.
+Theoriginal HP Power supply was rated for a maximum DC output of **300 watts**.
 - **Manufacturer:** Lite-On
-- **Maximim Output:** 300 W
+- **Maximum Output:** 300 W
 - **HP Part Number:** 585008-001
 - **Design:** Non-modular
-### Removal and Troublshooting
+### Removal and Troubleshooting
 Before removing the PSU, I traced its wiring and disconnected each power connection from the motherboard and installed devices.
 
 After removing the PSU mounting screws, the power supply still would not release from the chassis. Rather than forcing the component, I inspected the mounting area and discovered a small metal retention tab. Moving the tab slightly released the PSU and allowed it to be removed safely.
@@ -104,9 +104,9 @@ The CPU performs the primary processing and instruction execution for the comput
 The CPU cooler consisted of a fan and a metal heatsink mounted directly above the processor.
 **Cooling path:**
 
-CPU > Thermal Paste > Heatsink > Fan > Airflow
+CPU → Thermal Paste → Heatsink → Fan → Airflow
 
-Themal paste fills microscopic imperfections between the CPU's heat spreader and the heatsink, improving heat transfer between the two sufaces.
+Thermalpaste fills microscopic imperfections between the CPU's heat spreader and the heatsink, improving heat transfer between the two surfaces.
 ### Removal
 I disconnected the CPU fan from the motherboard and loosened the four spring-loaded heatsink mounting screws gradually in a diagonal pattern. After releasing the thermal-paste bond, I removed the cooler and exposed the CPU.
 
@@ -115,8 +115,8 @@ The CPU retention mechanism was then released, allowing the processor to be care
 ![CPU Cooler](images/Identified%20the%20CPU%20Cooler.jpg)
 ### CPU Cooler Connections
 ![CPU Cooler Connections](images/CPU%20Cooler%20Connections.jpg)
-### CPU Cooler Screws Identifed
-![CPU Cooler scews identified](images/Identifying%20CPU%20Cooler%20Screws.jpg)
+### CPU Cooler Screws Identified
+![CPU Cooler screws identified](images/Identifying%20CPU%20Cooler%20Screws.jpg)
 ### CPU Cooler Removed
 ![CPU Cooler Removed](images/CPU%20Cooler%20Removed.jpg)
 ### CPU Identified
@@ -125,6 +125,7 @@ The CPU retention mechanism was then released, allowing the processor to be care
 ![CPU Contact Pads](images/CPU%20Removed%20Back.jpg)
 ### LGA Motherboard Socket
 ![LGA motherboard empty](images/Motherboard%20after%20CPU%20removed.jpg)
+
 ## Component 5: Wi-Fi Card
 ### Wireless Network Adapter
 The system included an internal Wi-Fi card that provided wireless network connectivity. The card was installed directly onto the motherboard and connected to an antenna lead.
@@ -132,12 +133,12 @@ The system included an internal Wi-Fi card that provided wireless network connec
 - A Wi-Fi adapter allows the computer to communicate with a wireless network.
 - The adapter connects to the motherboard through an expansion interface.
 - A small coaxial antenna cable connects to the Wi-Fi card using a snap-on connector.
-- The antenna improves the card's ability to transmit and recieve wireless signals.
+- The antenna improves the card's ability to transmit and receive wireless signals.
 - Small internal components and antenna connectors require careful handling during removal.
 ### Removal
-I disconnected the antenna lead from the Wi-Fi card, removed its retaining srew, and carefully removed the card from its motherboard connector.
+I disconnected the antenna lead from the Wi-Fi card, removed its retaining screw, and carefully removed the card from its motherboard connector.
 
-Removing the card also exposed significant dust accumulation underneath it, demonstrating that dust can collect in areas that are not visible during normal computer maintanence.
+Removing the card also exposed significant dust accumulation underneath it, demonstrating that dust can collect in areas that are not visible during normal computer maintenance.
 ### Wi-Fi Card Identified
 ![WiFi Card Identified](images/WiFi%20Card%20Identified.jpg)
 ### Wi-Fi Card Specifications
@@ -157,8 +158,10 @@ The removed wireless adapter was identified from its component label:
 The motherboard is the main printed circuit board (PCB) of the computer. It provides the electrical and communication pathways that allow the CPU, RAM, storage, expansion devices, power supply, and external peripherals to work together.
 
 During the teardown, removing the surrounding components gradually exposed the motherboard and made it easier to understand how the computer's hardware connects as one complete system.
+
 **What I identified:**
-- CPU socekt and retention mechanism
+
+- CPU socket and retention mechanism
 - DIMM slots for system memory
 - PCIe expansion slots
 - SATA ports for storage devices
@@ -196,7 +199,9 @@ The motherboard's SATA ports provide data connections for storage and optical de
 I identified **eight motherboard mounting screws**: seven positioned around the outer perimeter and one additional screw near the center of the board.
 
 After removing the screws, I carefully checked that no cables or connectors were still attached before moving the motherboard.
+
 **What I learned:**
+
 - Motherboards are secured to the chassis using screws and raised mounting points called **standoffs**.
 - Standoffs keep the underside of the motherboard from making direct contact with the metal chassis.
 - The rear I/O ports must clear the chassis opening before the motherboard can be completely removed.
@@ -211,10 +216,13 @@ The motherboard does not sit directly against the metal computer case. Standoffs
 Without proper standoff placement, conductive areas on the underside of a motherboard could contact the metal chassis and potentially cause an electrical short.
 ### Chassis After Motherboard Removal
 ![Chassis after Motherboard removed](images/Underneath%20Motherboard%20Cleanest%20so%20far.jpg)
+
 ## Component 7: DVD Optical Drive
 ### DVD/CD Rewritable Drive
 The system included an internal DVD/CD rewritable optical drive used to read and write optical media. During the teardown, I identified both the drive's data and power connections before removing it from the chassis.
+
 **What I learned:**
+
 - DVD stands for **Digital Versatile Disc**.
 - CD stands for **Compact Disc**.
 - The optical drive uses a SATA data connection to communicate with the motherboard.
@@ -245,6 +253,7 @@ The removed optical drive was identified from its component label:
 The front I/O assembly provides convenient external connections at the front of the computer. Unlike the rear I/O ports that were integrated with the motherboard, this assembly was mounted to the chassis and connected back to the motherboard with internal cables.
 
 **What I learned:**
+
 - I/O stands for **Input/Output**.
 - External ports provide an interface between the user, peripheral devices, and the computer.
 - Front-panel ports connect to internal motherboard headers through cables.
@@ -270,6 +279,7 @@ Removing the card reader provided another example of how front-mounted devices c
 The chassis fan helps control the internal temperature of the computer by moving air through the case. This airflow helps remove heat generated by components such as the CPU, motherboard, power supply, and storage devices.
 
 **What I learned:**
+
 - Case fans create airflow through the computer chassis.
 - Cool air enters the case while warmer air is exhausted.
 - Proper airflow helps prevent excessive component temperatures.
@@ -282,7 +292,7 @@ I disconnected the chassis fan's power cable from the motherboard and removed th
 Once removed, the amount of dust accumulated on the fan blades and housing was clearly visible.
 ### Chassis Fan Removed
 ![Chassis Fan Removed](images/Case%20Chassis%20Fan%20Removed.jpg)
-### Preventative Maintenance Observation
+### Preventive Maintenance Observation
 The fan showed heavy dust accumulation across the blades and surrounding frame. Similar dust buildup was found throughout the computer, including around the CPU cooler, motherboard, expansion components, and ventilation areas.
 
 This teardown demonstrated why routine internal cleaning is important. Dust can obstruct ventilation, reduce heat-transfer efficiency, and force cooling fans to work harder to maintain acceptable temperatures.
@@ -313,9 +323,9 @@ Throughout the project, I did more than remove parts. I identified components, t
 After the final components were removed, only the chassis and a small amount of integrated front-panel wiring remained.
 ### HP Chassis Case Specs
 ![HP Empty Case Specs](images/HP%20Case%20Empty%20Specs.jpg)
-### HP Empty Chassis Front wihtout Bezel
+### HP Empty Chassis Front without Bezel
 ![HP Case Empty Front without Bezel](images/HP%20Case%20Empty%201.jpg)
-### HP Empty Chassis Empty
+### HP Empty Chassis Interior
 ![HP Case Gutted](images/HP%20Case%20Empty%202.jpg)
 ### HP Empty Chassis Rear View
 ![HP Case Rear View Empty](images/HP%20Case%20Empty%20Rear%20View.jpg)
@@ -340,3 +350,4 @@ By disassembling a complete desktop computer first, I gained practical experienc
 Project Athena will reverse the process demonstrated in this repository: instead of beginning with a complete computer and reducing it to an empty chassis, I will begin with individual modern components and assemble them into a complete working system.
 
 **Legacy-PC-Teardown taught me how a computer comes apart. Project Athena will demonstrate that I understand how one goes together.**
+
