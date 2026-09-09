@@ -60,7 +60,7 @@ Before removing the drive, I identified and disconnected its SATA data and power
 
 ## Component 3: Power Supply Unit
 ### Power Supply Unit (PSU)
-The power supply unit convertsAC Power from the wall outlet into the DC power that the computer's internal components can use. This HP Pavilion used a 300Watt power supply with permanently attached cables.
+The power supply unit converts AC Power from the wall outlet into the DC power that the computer's internal components can use. This HP Pavilion used a 300-Watt power supply with permanently attached cables.
 **What I learned:**
 - PSU stands for **Power Supply Unit**.
 - The PSU converts **AC (Alternating Current)** into  **DC (Direct Current)**.
@@ -70,7 +70,7 @@ The power supply unit convertsAC Power from the wall outlet into the DC power th
 - SATA devices use SATA power connections from the PSU.
 - The system used a **non-modular PSU**, meaning its cables are permanently attached to the power supply.
 ### PSU Specifications
-Theoriginal HP Power supply was rated for a maximum DC output of **300 watts**.
+The original HP Power supply was rated for a maximum DC output of **300 watts**.
 - **Manufacturer:** Lite-On
 - **Maximum Output:** 300 W
 - **HP Part Number:** 585008-001
@@ -106,7 +106,7 @@ The CPU cooler consisted of a fan and a metal heatsink mounted directly above th
 
 CPU → Thermal Paste → Heatsink → Fan → Airflow
 
-Thermalpaste fills microscopic imperfections between the CPU's heat spreader and the heatsink, improving heat transfer between the two surfaces.
+Thermal paste fills microscopic imperfections between the CPU's heat spreader and the heatsink, improving heat transfer between the two surfaces.
 ### Removal
 I disconnected the CPU fan from the motherboard and loosened the four spring-loaded heatsink mounting screws gradually in a diagonal pattern. After releasing the thermal-paste bond, I removed the cooler and exposed the CPU.
 
